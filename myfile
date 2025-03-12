@@ -1,0 +1,23 @@
+Step1: Launch EC2 instance with Ubuntu OS
+
+Step2: Check git is present by
+	-> which git
+Step3: Create a directory which you want to make as working directory
+	-> mkdir mydir
+Step4: Setup username and email
+	-> git config --global user.name "Sinchana30"
+	-> git config --global user.email "sinchana.pshettar@gmail.com"
+Step5: Add files to be pushed to remote repo into this dir
+
+Step6: initialize the git. This will create a logical seperation as working area, staging area & local repo
+	-> git init
+Step7: add the files to staging area by
+	-> git add .
+Step8: check the file is added by, the file name will be in green color
+	-> git status
+Step9: move the file to local repo
+	-> git commit -m "msg"
+Step11: Establish connection with remote repo
+	-> git remote add origin <git repo url>
+Step12: Push the file to remote repo
+	-> git push -u origin main
