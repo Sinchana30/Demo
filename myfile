@@ -21,3 +21,17 @@ Step11: Establish connection with remote repo
 	-> git remote add origin <git repo url>
 Step12: Push the file to remote repo
 	-> git push -u origin main
+
+change the branch & edit file and merge & push
+
+step1: create a branch
+		-> git branch stage
+step2: switch to the branch
+		-> git checkout stage
+step3: edit/add the file and commit
+		-> git commit - "msg"		
+step4: checkout master branch and merge
+		-> git checkout master
+		-> git merge stage
+step5: push these to remote repo
+		-> git push -u origin master 
